@@ -30,6 +30,65 @@ Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz B
 2010 -> false
 ```
 
+3. Write a program that produce the following output giving an integer input n.
+   - 3.1
+<pre>
+   n=3   n=4    n=6
+   *     *      *
+   **    **     **
+   ***   ***    ***
+         ****   ****
+                *****
+                ******
+</pre>
+
+   - 3.2
+   <pre>
+   n=3    n=4      n=6
+     *      *        *
+    **     **       **
+   ***    ***      ***
+         ****     ****
+                 *****
+                ******
+   </pre>
+
+   - 3.3
+   <pre>
+   n=3    n=4      n=6
+   ***   ****   ******
+    **    ***    *****
+     *     **     ****
+            *      ***
+                    **
+                     *
+   </pre>
+
+   - 3.4
+   <pre>
+   n=3    n=4      n=6
+   ***   ****   ******
+   **    ***    *****
+   *     **     ****
+         *      ***
+                **
+                *
+   </pre>
+
+   - 3.5
+   <pre>
+   n=1  n=2  n=3   n=4    n=5        n=9
+   *    *     *     *      *          *
+        *    ***   ***    ***        ***
+              *    ***   *****      *****
+                    *     ***      *******
+                           *      *********
+                                   *******
+                                    *****
+                                     ***
+                                      *
+   </pre>                     
+
 
 ## Medium
 1. Write a program that finds all prime numbers up to n for input n.
