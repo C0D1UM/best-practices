@@ -33,7 +33,7 @@ A project repo will be the place where all code, documentation and issue trackin
 - If you must use a text editor, at least install a linter plugin for the language you are using.  Ensure the editor's settings for indentation match up with the code style guidelines below, or install an editorConfig plugin to do it automatically.
 
 - You should be able to work on and preview the project without an internet connection.  This encourages an adequate level of decoupling between components, with the added bonus of being able to work without an internet connection.
- 
+
 ### Teamwork
 
 - We practice agile development and start each day with a short SCRUM meeting where we talk about our successes and problems from the previous day, and our tasks for the day ahead.
@@ -124,3 +124,6 @@ Step 23: go to app folder and copy assets directory to ftpzilla.
 - There should be clear documentation for deployment in the README at the base of the repo.  It should be clear enough that a new developer can set up a development environment and be able to deploy to a staging server without assistance within a couple of hours.
 
 - Major and minor releases, new features, and any significant patches should only be deployed to production on a Monday.  Hotfixes can be deployed Tuesday-Thursday but only emergency fixes should be deployed on a Friday.
+
+## Interview Questions
+[link](interview.md)
