@@ -89,6 +89,8 @@ n=1  n=2  n=3   n=4    n=5        n=9
                                    *
 ```
 
+4. (Python specific) In Python, what is the difference between `else` and `finally` in exception handling?
+
 ## Medium
 1. Write a program that finds all prime numbers up to n for input n.
 **Example Output:**
