@@ -8,7 +8,7 @@ The recommendations in this document come from the collective experience of the 
 
 A project repo will be the place where all code, documentation and issue tracking will live.  Configuration (server addresses, database urls etc) and secrets (keys and passwords) should remain outside the repo.
 
-- If the project is in production, there should be a branch where the currently running production code is at the tip, and can be deployed at short notice in case of hardware failure or other malfunction.
+- We aim to use the [cactus model](https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful/) of branching in git.  Production builds should be tagged with a version, to be able to easily deploy and rollback to a specific version in the event of a problem.
 
 - There should be no commits made directly to the project repo.  Developers should work on their own fork and submit pull requests to the project repo to be vetted and merged by another team member.
 
@@ -125,5 +125,5 @@ Step 23: go to app folder and copy assets directory to ftpzilla.
 
 - Major and minor releases, new features, and any significant patches should only be deployed to production on a Monday.  Hotfixes can be deployed Tuesday-Thursday but only emergency fixes should be deployed on a Friday.
 
-## Interview Questions
+## Interview Problems
 [link](interview.md)
