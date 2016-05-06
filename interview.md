@@ -75,7 +75,7 @@ n=3    n=4      n=6
              *
 ```
 
-  * 3.5
+  * 3.5  (NB: Not easy)
 ```
 n=1  n=2  n=3   n=4    n=5        n=9
 *    *     *     *      *          *
@@ -99,10 +99,3 @@ n=1  n=2  n=3   n=4    n=5        n=9
 ```
 
 ## Hard
-
-## General Question
-1. How do you see yourself in the next 5 years? What is your goal in life?
-2. What is your strength?
-3. What is your weakness?
-4. Ask about his resume/experience
-5. Have you ever work as a team? What is the challenging part?
