@@ -66,12 +66,12 @@ n=1    n=2      n=3    	  n=4       n=5
 
   * 3.4
 ```
-n=1	n=2	n=3    	n=4     n=5
+n=1	n=2	n=	n=4     n=5
 *	**	* *	*  *	*   *
 	**	 * 	 **      * *
-		* *      **       *  
+		* *	 **       *  
 			*  *	 * *
-                            	*   *
+					*   *
 ```
 
   * 3.5  (NB: Not easy)
@@ -92,7 +92,7 @@ n=1  n=2  n=3   n=4    n=5        n=9
 n=1	n=2     n=3         n=4
 +       A+B     AA+BB       AAA+BBB
         +E+     A+E+B       AA+E+BB
-	C+D  	+EEE+       A+EEE+B
+        C+D  	+EEE+       A+EEE+B
                 C+E+D       +EEEEE+
                 CC+DD       C+EEE+D	
                             CC+E+DD
