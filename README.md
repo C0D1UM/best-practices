@@ -26,6 +26,12 @@ A project repo will be the place where all code, documentation and issue trackin
 
 - Bugfixes and new features should include tests[1].
 
+#### Migrations
+
+- Pull Requests should not contain migrations.  If schema changes are required, it should be indicated in the name of the PR or with a label.  Then, when the PR is reviewed and ready to merge, migrations should be added in a separate commit and merged immediately.
+
+- Migrations files should not be deleted or changed once they are in the master branch. 
+
 ### Development Environment
 
 - Use an IDE where possible.  Webstorm and PyCharm are excellent.
