@@ -28,7 +28,7 @@ A project repo will be the place where all code, documentation and issue trackin
 
 #### Migrations
 
-- Pull Requests should not contain migrations.  If schema changes are required, it should be indicated in the name of the PR or with a label.  Then, when the PR is reviewed and ready to merge, migrations should be added in a separate commit and merged immediately.
+- Pull Requests should not contain migrations.  If schema changes are required, __it should be indicated in the name of the PR _and_ with a label__.  Then, when the PR is reviewed and ready to merge, migrations should be added in a separate commit and merged immediately.
 
 - Migrations files should not be deleted or changed once they are in the master branch. 
 
