@@ -1,0 +1,1 @@
+The code in 'finally' block executes though the exception error raised or not,whereas code under 'else' block executes when there is no exception raised in 'try' block. 
