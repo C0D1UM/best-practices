@@ -1,4 +1,18 @@
 # Interview Problems
+
+## Code, Consult, Communicate
+
+Todo List
+
+Let’s start with the good-old trusty todo list, the “Hello, World” of full programs. You’re going to write a command-line todo list program that meets the following specifications:
+
+1. Prompt the user to enter a chore or task. Store the task in a permanent location so that the task persists when the program is restarted.
+2. Allow the user to enter as many tasks as desired but stop entering tasks by entering a blank task. Do not store the blank task.
+3. Display all the tasks.
+4. Allow the user to remove a task, to signify it’s been
+completed.
+5. Persist todos to Redis
+
 ## Easy
 1. Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
