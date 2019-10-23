@@ -9,9 +9,9 @@
   "scripts": {
     "create": "npm run build && npm run test",
     "build": "tsc -p .",
-    "dev": "tsc -p . && todolist",
+    "dev": "tsc -p . && node ./lib/index.js",
     "start": "todolist",
-    "test": "npm i -g && todolist"
+    "test": "npm i -g && node ./lib/index.js"
   },
   "repository": {
     "type": "git",
